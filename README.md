@@ -1,13 +1,14 @@
 # script de renomage automatique des pc - configuration regionreunion
 renommer les pcs en incrementant de 1 un copmteur
 
-modifier le code établissement et la mot de passe administrateur pour windows dans lance.sh et winrename.bat
+modifier le code établissement et la mot de passe administrateur pour windows dans rename.sh et winrename.bat et add_user.bat
 copier tous les fichiers sur une clé USB
 au début tous les compteurs sont a zéro
 
-pour windows
+## pour windows
 on lance add_user.bat pour activer le compte administrateur puis winrename.bat
-pour linux
+
+## pour linux
 copier lance.sh sur le poste
 puis chmod +x lance.sh
 puis sudo ./lance.sh
